@@ -3,7 +3,7 @@ regions:
 - us-east-1
 
 filters:
-  instances-state-name: running
+  instance-state-name: running
   tag:Name: roboshop-frontend
 
 hostnames:
