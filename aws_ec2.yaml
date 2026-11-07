@@ -11,3 +11,4 @@ hostnames:
 
 keyed_groups:
   - key: tags.Name
+    prefix: ""
