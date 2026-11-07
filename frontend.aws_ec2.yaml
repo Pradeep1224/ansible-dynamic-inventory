@@ -1,0 +1,10 @@
+plugin: amazon.aws.aws_ec2
+regions:
+- us-east-1
+
+filters:
+  instances-state-name: running
+  tag:Name: roboshop-frontend
+
+hostnames:
+- private-ip-address
